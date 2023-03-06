@@ -1,0 +1,143 @@
+.containerForm {
+  background-image: url("../../images/form1.png");
+  display: flex;
+  flex-direction: column;
+  background-size: cover;
+  position: absolute;
+  height: fit-content;
+  top: 0px;
+  bottom: 0px;
+  right: 0px;
+  left: 0px;
+}
+
+.image {
+  width: 120px;
+  height: 100px;
+}
+
+.image img {
+  width: 120px;
+  height: 100px;
+  margin-left: 2em;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+}
+
+.form h1 {
+  position: relative;
+  border-radius: 15px;
+  width: fit-content;
+  font-size: 2em;
+  margin-left: 9em;
+  margin-bottom: 2em;
+  color: darkgreen;
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+
+.name {
+  width: fit-content;
+  display: flex;
+  flex-direction: column;
+  margin-left: 1.5em;
+  
+}
+
+.name input{
+  height: 20px;
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+
+.url {
+  width: fit-content;
+  margin-left: 1.5em;
+  margin-top: 1em;
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+
+.url input{
+  height: 20px;
+}
+
+.summary {
+  width: fit-content;
+  display: flex;
+  flex-direction: column;
+  margin-left: 1.5em;
+  margin-top: 1em;
+}
+
+.summary textarea {
+  overflow: scroll;
+  resize: none;
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+
+.diets {
+  width: fit-content;
+  padding: 3px;
+  margin-left: 6em;
+  margin-top: 1em;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+  text-transform: capitalize;
+  border-radius: 15px;
+}
+
+.diets h3 {
+  color: darkgreen;
+}
+
+.steps {
+  position: relative;
+  width: fit-content;
+  top: -28em;
+  left: 29em;
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+
+.steps textarea {
+  overflow: scroll;
+  resize: none;
+}
+
+.health {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: fit-content;
+  border: 2px solid darkgreen;
+  padding: 1em;
+  border-radius: 2em;
+  top: -26em;
+  left: 33em;
+  box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+
+.health label {
+  color: darkgreen;
+}
+
+.form button {
+  position: relative;
+  width: fit-content;
+  top: -10em;
+  right: 2em;
+  font-size: 30px;
+  color: darkgreen;
+  background-color: antiquewhite;
+  border: 1px solid rgb(38, 57, 77);
+  border-radius: 15px;
+  padding: 0.2em;
+  cursor: pointer;
+}
+
+.form_err{
+  font-size: 12px;
+  color: darkred;
+}

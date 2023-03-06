@@ -1,0 +1,35 @@
+@font-face{
+  font-family: yaguero;
+  src: url("../../fonts-styles/Triorange-PersonalUse-Regular.otf")
+}
+.home {
+  display: flex;
+  flex-direction: column;
+}
+
+.home h1 {
+  font-family: yaguero;
+  margin-left: 2em;
+  font-size: 5em;
+  color: rgb(5, 63, 27);
+}
+
+.paginado{
+    display: flex;
+    top: -2em;
+    left: 40%;
+    width: fit-content;
+    justify-content: center;
+    position: relative;
+    margin-bottom: 2em;
+}
+
+.cards{
+    display: flex;
+    position: relative;
+    top: -26px;
+    margin-left: 20em;
+    margin-right: 1em;
+    margin-bottom: 2em;
+    width: fit-content;
+}

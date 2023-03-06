@@ -1,0 +1,120 @@
+.container {
+  display: flex;
+  position: relative;
+  background-image: url("../../images/info4.png");
+  background-size: 100%;
+  height: 120%;
+  background-attachment: fixed;
+  flex-direction: column;
+  padding-block-end: 15%;
+
+}
+
+.container h1 {
+  display: flex;
+  justify-content: center;
+  width: 43em;
+  color: brown;
+  margin-left: 1em;
+  font-size: 22px;
+  border: 2px solid rgb(84, 85, 37);
+  border-radius: 15px;
+  background-color: antiquewhite;
+  
+}
+
+.container h2 {
+  display: flex;
+  width: 200px;
+  color: darkgreen;
+  margin-left: 10em;
+  margin-top: 0em;
+  font-size: 18px;
+}
+
+.container img {
+  display: flex;
+  margin-left: 2em;
+  width: 120px;
+  height: 100px;
+  cursor: pointer;
+}
+
+.img img {
+  border-radius: 15px;
+  left: 1em;
+  width: 380px;
+  height: 250px;
+  box-shadow: 1px 1px 1px 1px rgba(32, 32, 32, 0.3);
+}
+
+.ddcontainer {
+  width: fit-content;
+  display: flex;
+  margin-left: 2em;
+}
+
+.dish {
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+  height: fit-content;
+  /* margin-left: 12em; */
+  top: 0.8em;
+}
+
+.dish h3 {
+  color: darkgreen;
+}
+
+.diets {
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+  height: fit-content;
+}
+
+.diets h3 {
+  color: darkgreen;
+}
+
+.summary {
+  display: flex;
+  flex-direction: column;
+  width: 435px;
+  height: fit-content;
+  margin-left: 1em;
+  margin-bottom: 1em;
+}
+
+.summary p {
+  color: darkgreen;
+  font-weight: bold;
+  font-size: large;
+}
+
+.summary span {
+  text-align: justify;
+}
+
+.steps {
+  border: 1px solid black;
+  border-radius: 15px;
+  background-color: rgb(248, 241, 233);
+  position: absolute;
+  width: 30em;
+  display: flex;
+  flex-direction: column;
+  margin-left: 30em;
+  margin-top: 10em;
+  padding: 0px 3px 1px 3px;
+}
+
+.steps h3 {
+  color: darkgreen;
+}
+
+.steps p {
+  padding-right: 2px;
+  text-align: justify;
+}

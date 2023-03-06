@@ -3,7 +3,7 @@ import "./App.css";
 import { Detail, Form, Home, Landing } from "./views/index";
 
 function App() {
-
+//TODO OK
 
   return (
     <div className="App">
