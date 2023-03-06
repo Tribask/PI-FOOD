@@ -1,0 +1,18 @@
+.errors{
+    display: flex;
+    position: relative;
+    top: -5em;
+    right: -5em;
+    flex-direction: column;
+    align-items: center;
+}
+
+.errors img{
+    width: 700px;
+    height: 500px;
+}
+
+.errors h1{
+    margin-top: -1em;
+    margin-left: -0.5em;
+}

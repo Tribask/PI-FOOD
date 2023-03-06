@@ -1,0 +1,29 @@
+@font-face{
+    font-family: trior;
+    src: url("../../fonts-styles/Triorange-PersonalUse-Regular.otf")
+}
+
+.mainFilter{
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    font-family: trior;
+}
+
+.alph{
+    padding-bottom: 1em;
+}
+
+.diets{
+    padding-bottom: 1em;
+}
+
+.health{
+    padding-bottom: 1em;
+}
+
+.mainFilter button{
+    margin-top: 0.5em;
+    font-family: trior;
+    font-size: large;
+}

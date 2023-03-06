@@ -1,0 +1,23 @@
+.container{
+    display: flex;
+}
+
+.pag_button{
+    background: rgba(255, 232, 201, 0.884) ;
+    border-radius: 10px;
+    border: 1px solid black;
+    font-weight: bold;
+}
+
+.pag_button:hover{
+    background: rgba(209, 165, 107, 0.884);
+    cursor: pointer;
+}
+
+.active_button {
+    background: rgba(209, 165, 107, 0.884);
+    font-weight: bold;
+    border-radius: 10px;
+    cursor: pointer;
+    border: 1px solid black;
+  }
